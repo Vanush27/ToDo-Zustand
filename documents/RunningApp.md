@@ -11,24 +11,31 @@ $ react-native: "0.74.3"
 
 ```
 
-## Initial setup - first time
-
+## Installation
 ```bash
-# install dependencies
-$ yarn
+- Clone the Repository
+
+$ git clone https://github.com/Vanush27/ToDo-Zustand.git
+$ cd ToDoList
+
+
+- Install Dependencies
+
+npm install
+
 ```
-- Check with the team to add support for sentry with your local application
+
 
 ## Running IOS app
 
 ```bash
-# Repeat Initial setup - if not working
+
 
 # Install pod dependencies
-$ yarn pod-install
+$ pod-install
 
 # Run on simulator
-$ yarn ios
+$ npm start ios
 
 ```
 
@@ -41,6 +48,6 @@ $ yarn ios
 $ adb devices
 # Then
 # Or without connecting Run on simulator
-$ yarn android
+$ npm start android
 
 ```
